@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TheMission\\services\\TheMission.Services\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3352C2-D7A6-49F2-9244-BF6A675E0B54}|TheMission.Services.Infrastructure\\TheMission.Services.Infrastructure.csproj|c:\\themission\\services\\themission.services\\themission.services.infrastructure\\themission.services.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8F3352C2-D7A6-49F2-9244-BF6A675E0B54}|TheMission.Services.Infrastructure\\TheMission.Services.Infrastructure.csproj|solutionrelative:themission.services.infrastructure\\themission.services.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C45C711-44E2-4912-8272-8D05903A151F}|TheMission.Services.Api\\TheMission.Services.Api.csproj|c:\\themission\\services\\themission.services\\themission.services.api\\themission.services.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4C45C711-44E2-4912-8272-8D05903A151F}|TheMission.Services.Api\\TheMission.Services.Api.csproj|solutionrelative:themission.services.api\\themission.services.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3352C2-D7A6-49F2-9244-BF6A675E0B54}|TheMission.Services.Infrastructure\\TheMission.Services.Infrastructure.csproj|c:\\themission\\services\\themission.services\\themission.services.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F3352C2-D7A6-49F2-9244-BF6A675E0B54}|TheMission.Services.Infrastructure\\TheMission.Services.Infrastructure.csproj|solutionrelative:themission.services.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6CB4A4-0DDC-4C13-BCEF-8CD42726EEA9}|TheMission.Services.Domain\\TheMission.Services.Domain.csproj|c:\\themission\\services\\themission.services\\themission.services.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6CB4A4-0DDC-4C13-BCEF-8CD42726EEA9}|TheMission.Services.Domain\\TheMission.Services.Domain.csproj|solutionrelative:themission.services.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TheMission.Services.Infrastructure",
+              "DocumentMoniker": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Infrastructure\\TheMission.Services.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "TheMission.Services.Infrastructure\\TheMission.Services.Infrastructure.csproj",
+              "ToolTip": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Infrastructure\\TheMission.Services.Infrastructure.csproj",
+              "RelativeToolTip": "TheMission.Services.Infrastructure\\TheMission.Services.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-16T14:54:25.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TheMission.Services.Api",
+              "DocumentMoniker": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Api\\TheMission.Services.Api.csproj",
+              "RelativeDocumentMoniker": "TheMission.Services.Api\\TheMission.Services.Api.csproj",
+              "ToolTip": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Api\\TheMission.Services.Api.csproj",
+              "RelativeToolTip": "TheMission.Services.Api\\TheMission.Services.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-16T14:53:52.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "TheMission.Services.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "TheMission.Services.Infrastructure\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:52:34.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "TheMission.Services.Domain\\Class1.cs",
+              "ToolTip": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Domain\\Class1.cs",
+              "RelativeToolTip": "TheMission.Services.Domain\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:41:31.685Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

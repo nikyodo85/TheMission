@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "xs0chWJ7Lq2aGSx8Ss4X9d8oBqTm3axDrqVy934/5RgaMBnax/GGcxROzd1qqbbNBWyYEG1EueemIHn8NYdNFA==",
+  "success": true,
+  "projectFilePath": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Api\\TheMission.Services.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nik_y\\.nuget\\packages\\amazon.lambda.core\\2.2.0\\amazon.lambda.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\nik_y\\.nuget\\packages\\amazon.lambda.runtimesupport\\1.10.0\\amazon.lambda.runtimesupport.1.10.0.nupkg.sha512",
+    "C:\\Users\\nik_y\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.4.1\\amazon.lambda.serialization.systemtextjson.2.4.1.nupkg.sha512",
+    "C:\\Users\\nik_y\\.nuget\\packages\\microsoft.icu.icu4c.runtime\\68.2.0.9\\microsoft.icu.icu4c.runtime.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\nik_y\\.nuget\\packages\\microsoft.icu.icu4c.runtime.linux-arm64\\68.2.0.9\\microsoft.icu.icu4c.runtime.linux-arm64.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\nik_y\\.nuget\\packages\\microsoft.icu.icu4c.runtime.linux-x64\\68.2.0.9\\microsoft.icu.icu4c.runtime.linux-x64.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\nik_y\\.nuget\\packages\\microsoft.icu.icu4c.runtime.win-arm64\\68.2.0.9\\microsoft.icu.icu4c.runtime.win-arm64.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\nik_y\\.nuget\\packages\\microsoft.icu.icu4c.runtime.win-x64\\68.2.0.9\\microsoft.icu.icu4c.runtime.win-x64.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\nik_y\\.nuget\\packages\\microsoft.icu.icu4c.runtime.win-x86\\68.2.0.9\\microsoft.icu.icu4c.runtime.win-x86.68.2.0.9.nupkg.sha512",
+    "C:\\Users\\nik_y\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.4\\microsoft.netcore.app.crossgen2.win-x64.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

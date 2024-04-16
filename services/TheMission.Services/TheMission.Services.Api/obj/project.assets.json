@@ -1,0 +1,439 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Amazon.Lambda.Core/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Amazon.Lambda.RuntimeSupport/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.2.0"
+        },
+        "compile": {
+          "lib/net8.0/Amazon.Lambda.RuntimeSupport.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.RuntimeSupport.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.2.0"
+        },
+        "compile": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime/68.2.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ICU.ICU4C.Runtime.linux-arm64": "68.2.0.9",
+          "Microsoft.ICU.ICU4C.Runtime.linux-x64": "68.2.0.9",
+          "Microsoft.ICU.ICU4C.Runtime.win-arm64": "68.2.0.9",
+          "Microsoft.ICU.ICU4C.Runtime.win-x64": "68.2.0.9",
+          "Microsoft.ICU.ICU4C.Runtime.win-x86": "68.2.0.9"
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.linux-arm64/68.2.0.9": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libicudata.so.68.2.0.9": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libicui18n.so.68.2.0.9": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libicuuc.so.68.2.0.9": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          }
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.linux-x64/68.2.0.9": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libicudata.so.68.2.0.9": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libicui18n.so.68.2.0.9": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libicuuc.so.68.2.0.9": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          }
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.win-arm64/68.2.0.9": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/icudt68.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/icuin68.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/icuuc68.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          }
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.win-x64/68.2.0.9": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x64/native/icudt68.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/icuin68.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/icuuc68.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Microsoft.ICU.ICU4C.Runtime.win-x86/68.2.0.9": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x86/native/icudt68.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/icuin68.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/icuuc68.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "TheMission.Services.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TheMission.Services.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TheMission.Services.Domain.dll": {}
+        }
+      },
+      "TheMission.Services.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TheMission.Services.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TheMission.Services.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TheMission.Services.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Amazon.Lambda.Core/2.2.0": {
+      "sha512": "DHqKeD1CYocP0t1dJC/NaXfu+5k6AoqnQ1Hlu/J2mXpLpCyeJfY+tIqT5fpruDarUlU0NtdIH8zSkCjeinyb1A==",
+      "type": "package",
+      "path": "amazon.lambda.core/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "amazon.lambda.core.2.2.0.nupkg.sha512",
+        "amazon.lambda.core.nuspec",
+        "lib/net6.0/Amazon.Lambda.Core.dll",
+        "lib/net6.0/Amazon.Lambda.Core.xml",
+        "lib/net8.0/Amazon.Lambda.Core.dll",
+        "lib/net8.0/Amazon.Lambda.Core.xml",
+        "lib/netstandard2.0/Amazon.Lambda.Core.dll",
+        "lib/netstandard2.0/Amazon.Lambda.Core.xml"
+      ]
+    },
+    "Amazon.Lambda.RuntimeSupport/1.10.0": {
+      "sha512": "J1NdaUV24sWALmCjzJJ6vezskeeH2NxJU7ao86rgdzW+AcgnhYjIULuKQNAx6fTl8AP/8acFsq7Jp7k156hh4A==",
+      "type": "package",
+      "path": "amazon.lambda.runtimesupport/1.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "amazon.lambda.runtimesupport.1.10.0.nupkg.sha512",
+        "amazon.lambda.runtimesupport.nuspec",
+        "lib/net5.0/Amazon.Lambda.RuntimeSupport.dll",
+        "lib/net5.0/Amazon.Lambda.RuntimeSupport.xml",
+        "lib/net6.0/Amazon.Lambda.RuntimeSupport.dll",
+        "lib/net6.0/Amazon.Lambda.RuntimeSupport.xml",
+        "lib/net8.0/Amazon.Lambda.RuntimeSupport.dll",
+        "lib/net8.0/Amazon.Lambda.RuntimeSupport.xml",
+        "lib/netstandard2.0/Amazon.Lambda.RuntimeSupport.dll",
+        "lib/netstandard2.0/Amazon.Lambda.RuntimeSupport.xml"
+      ]
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.4.1": {
+      "sha512": "X06Z8zPDZJS/xAoAntSqsxOoSSKKFJMg+0QGPRtlPt1mbP19HFXlXn+q+XqHdVWWFsiH/r7KbDIICr0nsrlwug==",
+      "type": "package",
+      "path": "amazon.lambda.serialization.systemtextjson/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "amazon.lambda.serialization.systemtextjson.2.4.1.nupkg.sha512",
+        "amazon.lambda.serialization.systemtextjson.nuspec",
+        "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.xml",
+        "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.xml",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.xml"
+      ]
+    },
+    "Microsoft.ICU.ICU4C.Runtime/68.2.0.9": {
+      "sha512": "+JnnRV3LguprgmGBxhPJNvSietNRn5SxQ1A7fYTaTxWJhQXC3BD42UCYa4kPXF13H4O2PV0DdGwx1Ro38dZtmw==",
+      "type": "package",
+      "path": "microsoft.icu.icu4c.runtime/68.2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "microsoft.icu.icu4c.runtime.68.2.0.9.nupkg.sha512",
+        "microsoft.icu.icu4c.runtime.nuspec",
+        "version.txt"
+      ]
+    },
+    "Microsoft.ICU.ICU4C.Runtime.linux-arm64/68.2.0.9": {
+      "sha512": "buZexq1QyLhhAseAJo/j6YkJifiMPxOYU8G05N7LIKWRM1rJ9Ufag7MYcY7d7X13+fS/Rm3CuuVsWEvB3T5pzg==",
+      "type": "package",
+      "path": "microsoft.icu.icu4c.runtime.linux-arm64/68.2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "microsoft.icu.icu4c.runtime.linux-arm64.68.2.0.9.nupkg.sha512",
+        "microsoft.icu.icu4c.runtime.linux-arm64.nuspec",
+        "runtimes/linux-arm64/native/libicudata.so.68.2.0.9",
+        "runtimes/linux-arm64/native/libicui18n.so.68.2.0.9",
+        "runtimes/linux-arm64/native/libicuuc.so.68.2.0.9",
+        "version.txt"
+      ]
+    },
+    "Microsoft.ICU.ICU4C.Runtime.linux-x64/68.2.0.9": {
+      "sha512": "EzSwdrljzwOhqyW0l68J0aJSkt+2N9KwH10+nnNinQFCUXor1zdPmxZRTBVaAAATEzcmruWTjwq1ij61oB8orQ==",
+      "type": "package",
+      "path": "microsoft.icu.icu4c.runtime.linux-x64/68.2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "microsoft.icu.icu4c.runtime.linux-x64.68.2.0.9.nupkg.sha512",
+        "microsoft.icu.icu4c.runtime.linux-x64.nuspec",
+        "runtimes/linux-x64/native/libicudata.so.68.2.0.9",
+        "runtimes/linux-x64/native/libicui18n.so.68.2.0.9",
+        "runtimes/linux-x64/native/libicuuc.so.68.2.0.9",
+        "version.txt"
+      ]
+    },
+    "Microsoft.ICU.ICU4C.Runtime.win-arm64/68.2.0.9": {
+      "sha512": "LJE0IfJawQDaEl/JN1DLqf5Z9gvDvOPw0ntcKzJYhl1Xv81xon0a5ObU9/DrAVF6BL/AGKqYHuC7bX6zrcT2YA==",
+      "type": "package",
+      "path": "microsoft.icu.icu4c.runtime.win-arm64/68.2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "microsoft.icu.icu4c.runtime.win-arm64.68.2.0.9.nupkg.sha512",
+        "microsoft.icu.icu4c.runtime.win-arm64.nuspec",
+        "runtimes/win-arm64/native/icudt68.dll",
+        "runtimes/win-arm64/native/icuin68.dll",
+        "runtimes/win-arm64/native/icuuc68.dll",
+        "version.txt"
+      ]
+    },
+    "Microsoft.ICU.ICU4C.Runtime.win-x64/68.2.0.9": {
+      "sha512": "4gkh2HW9m2JDM+87otmrukivYP/dedXZCdpnxbBft48eeemwDR12coMYEFbV8xToA3m95MQYFQPxS6a4JaRyyA==",
+      "type": "package",
+      "path": "microsoft.icu.icu4c.runtime.win-x64/68.2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "microsoft.icu.icu4c.runtime.win-x64.68.2.0.9.nupkg.sha512",
+        "microsoft.icu.icu4c.runtime.win-x64.nuspec",
+        "runtimes/win-x64/native/icudt68.dll",
+        "runtimes/win-x64/native/icuin68.dll",
+        "runtimes/win-x64/native/icuuc68.dll",
+        "version.txt"
+      ]
+    },
+    "Microsoft.ICU.ICU4C.Runtime.win-x86/68.2.0.9": {
+      "sha512": "fGnm7nxHhJkea7dgwLX4IGO8K1W0FHs5290FyDQmbB1xBuCFv0sFl308hIajSC1WVvuFbbVpRMBMxQjtIEOnzg==",
+      "type": "package",
+      "path": "microsoft.icu.icu4c.runtime.win-x86/68.2.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "microsoft.icu.icu4c.runtime.win-x86.68.2.0.9.nupkg.sha512",
+        "microsoft.icu.icu4c.runtime.win-x86.nuspec",
+        "runtimes/win-x86/native/icudt68.dll",
+        "runtimes/win-x86/native/icuin68.dll",
+        "runtimes/win-x86/native/icuuc68.dll",
+        "version.txt"
+      ]
+    },
+    "TheMission.Services.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TheMission.Services.Domain/TheMission.Services.Domain.csproj",
+      "msbuildProject": "../TheMission.Services.Domain/TheMission.Services.Domain.csproj"
+    },
+    "TheMission.Services.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../TheMission.Services.Infrastructure/TheMission.Services.Infrastructure.csproj",
+      "msbuildProject": "../TheMission.Services.Infrastructure/TheMission.Services.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Amazon.Lambda.Core >= 2.2.0",
+      "Amazon.Lambda.RuntimeSupport >= 1.10.0",
+      "Amazon.Lambda.Serialization.SystemTextJson >= 2.4.1",
+      "Microsoft.ICU.ICU4C.Runtime >= 68.2.0.9",
+      "TheMission.Services.Domain >= 1.0.0",
+      "TheMission.Services.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nik_y\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Api\\TheMission.Services.Api.csproj",
+      "projectName": "bootstrap",
+      "projectPath": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Api\\TheMission.Services.Api.csproj",
+      "packagesPath": "C:\\Users\\nik_y\\.nuget\\packages\\",
+      "outputPath": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Api\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\nik_y\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Domain\\TheMission.Services.Domain.csproj": {
+              "projectPath": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Domain\\TheMission.Services.Domain.csproj"
+            },
+            "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Infrastructure\\TheMission.Services.Infrastructure.csproj": {
+              "projectPath": "C:\\TheMission\\services\\TheMission.Services\\TheMission.Services.Infrastructure\\TheMission.Services.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Amazon.Lambda.Core": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Amazon.Lambda.RuntimeSupport": {
+            "target": "Package",
+            "version": "[1.10.0, )"
+          },
+          "Amazon.Lambda.Serialization.SystemTextJson": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
+          "Microsoft.ICU.ICU4C.Runtime": {
+            "target": "Package",
+            "version": "[68.2.0.9, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+            "version": "[8.0.4, 8.0.4]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
